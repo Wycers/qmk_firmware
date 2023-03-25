@@ -15,7 +15,7 @@ jobs:
     runs-on: self-hosted
     timeout-minutes: 1380
 
-    if: github.repository == 'qmk/qmk_firmware'
+    # if: github.repository == 'qmk/qmk_firmware'
 
     strategy:
       matrix:
